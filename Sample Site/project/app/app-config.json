@@ -1,0 +1,28 @@
+﻿{
+    "components": {
+        "configs": [
+            {
+                "path": "app/components.json",
+                "root": "app/components"
+            },
+            {
+                "path": "lib/weblib/components/components.json",
+                "root": "lib/weblib/components/"
+            }
+        ]
+    },
+    "base": {
+        "path": "lib/weblib/lib/BASE/BASE.js",
+        "namespaces": {
+            "components": "lib/weblib/components",
+            "app": "app"
+        },
+        "objects": {
+            "jQuery.fn.select2": "lib/weblib/plugins/select2351/select2.js"
+        },
+        "root": "lib/weblib/lib/BASE/"
+    },
+    "css": {
+        "files": [ "lib/weblib/css/bootstrap.css" ]
+    }
+}

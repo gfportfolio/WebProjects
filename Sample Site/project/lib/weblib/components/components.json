@@ -1,0 +1,123 @@
+{
+    "aliases": {
+        "ui-button-dropdown": "ui/inputs/UIButtonDropdown.html",
+        "ui-alert": "ui/emphasis/UIAlert.html",
+        "ui-slider": "ui/inputs/UISlider.html",
+        "ui-sidebar-manager": "ui/layouts/UISidebarManager.html",
+        "ui-collection-item": "ui/layouts/UICollectionItem.html",
+        "ui-collection": {
+            "default": "ui/layouts/UICollection.html",
+            "exceptions": [
+                {
+                    "msie": true,
+                    "path": "internetExplorer/ui/layouts/UICollection.html"
+                }
+            ]
+        },
+        "ui-date-time-picker": "ui/inputs/UIDateTimePicker.html",
+        "ui-date-picker-label": "ui/inputs/UIDatePickerLabel.html",
+        "ui-finite-collection": "ui/layouts/UIFiniteCollection.html",
+        "finite-list": "ui/layouts/FiniteList.html",
+        "ui-digging-collection": "ui/layouts/UIDiggingCollection.html",
+        "ui-scroll": {
+            "default": "ui/layouts/DesktopScroll.html",
+            "exceptions": [
+                {
+                    "ios": true,
+                    "path": "ui/layouts/DesktopScroll.html"
+                },
+                {
+                    "android": true,
+                    "path": "ui/layouts/DesktopScroll.html"
+                }
+            ]
+        },
+        "ui-popup": "ui/layouts/UIPopup.html",
+        "ui-popover": "ui/layouts/UIPopover.html",
+        "ui-context-menu": "ui/layouts/UIContextMenu.html",
+        "ui-single-select": "ui/inputs/UISingleSelect.html",
+        "ui-veil": "ui/layouts/UIVeil.html",
+        "ui-state-manager": "ui/states/UIStateManager.html",
+        "ui-transition": "ui/layouts/UITransition.html",
+        "ui-navigation": "ui/layouts/UINavigation.html",
+        "ui-multi-select": "ui/inputs/UIMultiSelect.html",
+        "ui-progress-bar": "ui/inputs/UIProgressBar.html",
+        "ui-transition": "ui/layouts/UITransition.html",
+        "ui-navbar-inner": "ui/navigation/UINavbarInner.html",
+        "ui-carousel": "ui/emphasis/UICarousel.html",
+        "ui-youtube": "ui/layouts/UIYoutube.html",
+        "ui-three-column-header": "ui/layouts/UIThreeColumnHeader.html",
+        "ui-map": "ui/widgets/UIMap.html",
+        "ui-draggable": "ui/layouts/UIDraggable.html",
+        "ui-time-picker": "ui/widgets/UITimePicker.html",
+        "ui-date-picker": "ui/widgets/UIDatePicker.html",
+        "ui-checkbox": "ui/inputs/UICheckbox.html",
+        "ui-radio": "ui/inputs/UIRadio.html",
+        "ui-accordion": "ui/layouts/UIAccordion.html",
+        "ui-accordion-group": "ui/layouts/UIAccordionGroup.html",
+        "ui-mobile-table": "ui/layouts/UIMobileTable.html",
+        "ui-state-button": "ui/inputs/UIStateButton.html",
+        "list-item-container": "ui/layouts/ListItemContainer.html",
+        "tester-component-tester": "tester/ComponentTester.html",
+        "tester-component-loader": "tester/ComponentLoader.html",
+        "tester-controller-inspector": "tester/ControllerInspector.html",
+        "tester-method-inspector": "tester/MethodInspector.html",
+        "tester-element-attributes": "tester/ElementAttributes.html",
+        "leavitt-sign-in": "leavitt/SignIn.html",
+        "leavitt-profile-image": "leavitt/LeavittProfileImage.html",
+        "ui-desktop-scroll": "ui/layouts/DesktopScroll.html",
+        "test-runner": "tester/TestRunner.html",
+        "test-runner-results": "tester/TestRunnerResults.html",
+        "test-runner-error": "tester/TestRunnerError.html",
+        "tester-state-manager": "tester/StateManager.html",
+        "ui-browser": {
+            "default": "ui/browsers/Unknown.html",
+            "exceptions": [
+                {
+                    "name": "Internet Explorer",
+                    "versions": [ { "from": 9, "to": 10 }, { "from": 10, "to": 11 } ],
+                    "path": "ui/browsers/IE.html"
+                },
+                {
+                    "name": "Chrome",
+                    "path": "ui/browsers/Chrome.html"
+                },
+                {
+                    "name": "Firefox",
+                    "path": "ui/browsers/Firefox.html",
+                    "versions": [ { "to": 36 } ]
+                }
+            ]
+        },
+        "ui-preloader-circle": "ui/emphasis/UIPreloaderCircle.html",
+        "ui-preloader-view": "ui/layouts/UIPreloaderView.html",
+        "material-design-inputs": "material/inputs/MaterialDesignInputs.html",
+        "material-inputs-text": "material/inputs/Text.html",
+        "css-helpers": "css/Helpers.html",
+        "css-list-element-helpers": "css/ListElementHelpers.html",
+        "css-material-button": "css/MaterialButton.html",
+        "css-material-input": "css/MaterialInput.html",
+        "css-material-icons": "material/icons/MaterialIcons.html",
+        "flat-button": "material/inputs/FlatButton.html",
+        "raised-button": "material/inputs/RaisedButton.html",
+        "input": "material/inputs/Input.html",
+        "textarea": "material/inputs/Textarea.html",
+        "group": "material/layouts/Group.html",
+        "dropdown": "material/inputs/Dropdown.html",
+        "preloader-line": "material/feedback/PreloaderLine.html",
+        "preloader-circle": "material/feedback/PreloaderCircle.html",
+        "lazy-load-state": "material/states/LazyLoadState.html",
+        "two-column-left-overlay": "material/layouts/TwoColumnLeftOverlay.html",
+        "single-select-item": "material/inputs/SingleSelectItem.html",
+        "single-select": "material/inputs/SingleSelect.html",
+        "single-select-list":  "material/inputs/singleSelectList/SingleSelectList.html",
+        "preloader-circle-view": "material/feedback/PreloaderCircleView.html",
+        "login": "material/login/Login.html",
+        "state-manager": "material/states/StateManager.html",
+        "lazy-load": "material/states/LazyLoad.html",
+        "modal-manager": "material/layouts/ModalManager.html",
+        "tooltip-manager": "material/layouts/TooltipManager.html",
+        "multi-select": "material/inputs/multiSelect/MultiSelect.html"
+
+    }
+}

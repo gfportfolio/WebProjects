@@ -1,0 +1,6 @@
+D:\grand-master-no-submodules\Applications\Web\Affiliations Earn Out\project\bin\AffiliationsEarnOut.dll.config
+D:\grand-master-no-submodules\Applications\Web\Affiliations Earn Out\project\bin\AffiliationsEarnOut.dll
+D:\grand-master-no-submodules\Applications\Web\Affiliations Earn Out\project\bin\AffiliationsEarnOut.pdb
+D:\grand-master-no-submodules\Applications\Web\Affiliations Earn Out\project\obj\Debug\AffiliationsEarnOut.csprojResolveAssemblyReference.cache
+D:\grand-master-no-submodules\Applications\Web\Affiliations Earn Out\project\obj\Debug\AffiliationsEarnOut.dll
+D:\grand-master-no-submodules\Applications\Web\Affiliations Earn Out\project\obj\Debug\AffiliationsEarnOut.pdb
